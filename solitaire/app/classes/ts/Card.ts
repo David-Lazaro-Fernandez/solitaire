@@ -10,7 +10,7 @@ export class Card implements ICard{
     rank: number;
     faceUp: boolean;
 
-    constructor(suit:string, rank:number, faceUp:boolean = false){
+    constructor(suit:string, rank:number, faceUp:boolean = true){
         this.suit = suit; 
         this.rank = rank; 
         this.faceUp = faceUp;
