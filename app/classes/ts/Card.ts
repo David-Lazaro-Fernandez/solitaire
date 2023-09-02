@@ -33,7 +33,6 @@ export class Card implements ICard {
     getImageUrl(rank: number, suit: string, color: string): string {
 
         let rankString: string;
-        console.log(this.faceUp)
         if (!this.faceUp) {
             return `/card_assets/Back_${suit}_${color}.png`
         }

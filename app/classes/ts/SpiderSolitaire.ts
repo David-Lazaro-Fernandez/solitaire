@@ -31,7 +31,6 @@ export class SpiderSolitaire implements ISpiderSolitaire {
                 }
             }
             column.cards.at(-1)?.flip()
-            console.log(column.cards.at(-1))
 
         });
     }
