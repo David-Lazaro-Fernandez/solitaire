@@ -3,7 +3,7 @@ import { Card } from "./Card";
 interface IColumn {
     cards: Array<Card>;
     addCard(card: Card): void;
-    removeCard(card: Card): void;
+    removeCard(): void;
 }
 
 export class Column implements IColumn {
@@ -17,10 +17,7 @@ export class Column implements IColumn {
         this.cards.push(card);
     }
 
-    removeCard(card: Card): void {
-        const index = this.cards.indexOf(card);
-        if (index > -1) {
-            this.cards.splice(index, 1);
-        }
+    removeCard(): void {
+        this.cards.pop()
     }
 }

@@ -7,7 +7,7 @@ interface IDeck {
 }
 
 export const Suit = {
-    Hearts : 'hearts',
+    Hearts : 'hearths',
     Diamonds : 'diamonds',
     Clubs : 'clubs',
     Spades : 'spades',
