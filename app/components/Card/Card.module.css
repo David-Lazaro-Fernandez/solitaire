@@ -1,0 +1,13 @@
+.card {
+  cursor: pointer;
+}
+
+.card img {
+  display: block;
+  margin-bottom: -60px;
+  image-rendering: pixelated;
+}
+
+.card[draggable="false"] {
+  cursor: default;
+}
